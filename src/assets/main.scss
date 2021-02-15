@@ -1,0 +1,35 @@
+html {
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+.input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0;
+  &__wrapper {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1rem;
+  }
+  &__label {
+    display: block;
+    text-align: left;
+  }
+}
+.store-filter {
+  &__option {
+    &__wrapper {
+      display: block;
+      padding: .2rem 1rem;
+    }
+    &--highlight {
+      background-color: salmon;
+    }
+    &--highlight-city {
+      background: lightgreen;
+    }
+  }
+}
